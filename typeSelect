@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ошибки операционных систем</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<form name="osType" action="osSelect.php" method="POST">
+	<select name="osType" size=2 >
+		<option value="srv">Серверные ОС</option>
+		<option value="cli">Клиентские ОС</option>
+	</select>
+	<input type="submit" name="typeSelected" value="Далее">
+</form>
+
+<?php 
+	include_once 'include.php';
+	
+ ?>
+
+</body>
+</html>
